@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+* {
+   box-sizing: border-box;
+   font-family: "Ubuntu Sans", sans-serif;
+}
+body {
+    display: flex;
+    background: linear-gradient(#5FACD3, #4D6787);
+    max-width: 100%;
+    padding: 15px;
+    flex-direction: column;
+}
+
+a:visited {
+    color: #0B1849;
+}
+
+a:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(120%);
+}
+
+.header {
+    min-height: 140px;
+    background-color: #457B9D;
+    border-radius: 20px;
+    border: solid 2px #133458;
+}
+
+.header h1 {
+    padding-left: 40px;
+}
+
+.links {
+    display: flex;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.links a {
+    background-color: #5FACD3;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    padding: 4px;
+    border-radius: 20px;
+    border: solid 2px #133458;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #0B1849;
+}
+
+.main {
+    min-height: 700px;
+    background-color: #457B9D;
+    border-radius: 20px;
+    border: solid 2px #133458;
+    padding: 20px;
+}
+.main .banner {
+    background-color: #5FACD3;
+    display: flex;
+    text-align: center;
+    padding: 40px;
+    border-radius: 40px;
+    width: 60%;
+    border: solid 5px #133458;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.70);
+}
+.banner .text {
+    align-self: center;
+    margin-left: 80px;
+}
+.footer {
+    min-height: 120px;
+    background-color: #457B9D;
+    border-radius: 20px;
+    border: solid 2px #133458;
+    padding: 20px;
+}
